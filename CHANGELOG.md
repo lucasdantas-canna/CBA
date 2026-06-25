@@ -20,3 +20,10 @@
   de cotação já existente). Nesse caso, solicita apenas o número da cotação,
   sem checklist técnico e sem coleta de dados cadastrais, e encaminha direto
   para o vendedor.
+
+## v4 — 2026-06-25
+- Val: tratamento de documento alterado para ser igual ao de imagem. Não pede
+  mais descrição em texto do documento. Informa que não consegue processar e
+  transfere diretamente para um vendedor, acionando o Agente Cotação e Serviços.
+- Agente Cotação: fase 0-B unificada para cobrir tanto imagem quanto documento
+  (mesma resposta de transferência direta, sem checklist, sem coleta de dados).
