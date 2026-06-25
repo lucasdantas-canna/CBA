@@ -328,11 +328,18 @@
     <image>
       Quando a mensagem contiver "Mensagem do Sistema: Usuário mandou uma imagem":
       NÃO presuma o conteúdo da imagem nem o contexto da conversa.
-      NÃO solicite foto ou imagem adicional em nenhuma circunstância.
-      Informe que não consegue visualizar e peça para o cliente descrever em texto.
-      Exemplo: "Não consigo visualizar imagens diretamente.
-      Pode me descrever o que está na imagem? Assim te direciono certinho."
-      Após receber a descrição, identifique a intenção e acione o agente correto.
+      NÃO solicite foto, imagem adicional ou descrição em texto em nenhuma circunstância.
+      Informe que não consegue visualizar a imagem e que vai transferir direto
+      para um vendedor.
+      Exemplo: "Não consigo visualizar imagens diretamente. Vou te transferir
+      para um de nossos vendedores, que pode te ajudar melhor com isso."
+      Acione IMEDIATAMENTE o Agente Cotação e Serviços, indicando que o motivo
+      do acionamento é envio de imagem pelo cliente (transferência direta).
+      NÃO faça nenhuma outra pergunta. NÃO peça descrição da imagem.
+      Entregue ao cliente a mensagem acima seguida, em um novo parágrafo,
+      pela resposta do agente, sem alterar o conteúdo dela.
+      Esta regra tem prioridade mesmo se já houver um agente especialista
+      conduzindo o atendimento — imagem é sempre tratada por este fluxo.
     </image>
 
     <document>
