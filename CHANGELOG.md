@@ -13,3 +13,10 @@
 - Agente Cotação: nova fase 0-B para transferência direta por envio de
   imagem. Pula checklist, pula "Buscar Produto", pula coleta de dados
   cadastrais, aciona direto a tool "Cotação / Orçamento concluído" e encerra.
+
+## v3 — 2026-06-25
+- Agente Cotação: nova fase 0-C para cliente com cotação já em aberto
+  (cliente menciona cotação existente, envia PDF de cotação ou cita número
+  de cotação já existente). Nesse caso, solicita apenas o número da cotação,
+  sem checklist técnico e sem coleta de dados cadastrais, e encaminha direto
+  para o vendedor.
